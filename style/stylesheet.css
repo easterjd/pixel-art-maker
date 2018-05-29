@@ -1,7 +1,7 @@
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(10, 10px);
-  grid-template-rows: repeat(12, 10px);
+  grid-template-columns: repeat(10, 20px);
+  grid-template-rows: repeat(12, 20px);
   justify-content: center;
 }
 
