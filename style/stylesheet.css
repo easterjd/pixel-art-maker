@@ -1,0 +1,142 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 10px);
+  grid-template-rows: repeat(7, 10px);
+  grid-template-areas:
+    "a1 a2 a3 a4 a5"
+    "b1 b2 b3 b4 b5"
+    "c1 c2 c3 c4 c5"
+    "d1 d2 d3 d4 d5"
+    "e1 e2 e3 e4 e5"
+    "red orange yellow green blue"
+    "c c c c c"
+}
+
+.indicator {
+  grid-area: c;
+}
+
+.RED {
+  grid-area: red;
+  background-color: red;
+}
+
+.ORANGE {
+  grid-area: orange;
+  background-color: orange;
+}
+
+.YELLOW {
+  grid-area: yellow;
+  background-color: yellow;
+}
+
+.GREEN {
+  grid-area: green;
+  background-color: green;
+}
+
+.BLUE {
+  grid-area: blue;
+  background-color: blue;
+}
+
+.a1 {
+  grid-area: a1;
+}
+
+.a2 {
+  grid-area: a2;
+}
+
+.a3 {
+  grid-area: a3;
+}
+
+.a4 {
+  grid-area: a4;
+}
+
+.a5 {
+  grid-area: a5;
+}
+
+.b1 {
+  grid-area: b1;
+}
+
+.b2 {
+  grid-area: b2;
+}
+
+.b3 {
+  grid-area: b3;
+}
+
+.b4 {
+  grid-area: b4;
+}
+
+.b5 {
+  grid-area: b5;
+}
+
+.c1 {
+  grid-area: c1;
+}
+
+.c2 {
+  grid-area: c2;
+}
+
+.c3 {
+  grid-area: c3;
+}
+
+.c4 {
+  grid-area: c4;
+}
+
+.c5 {
+  grid-area: c5;
+}
+
+.d1 {
+  grid-area: d1;
+}
+
+.d2 {
+  grid-area: d2;
+}
+
+.d3 {
+  grid-area: d3;
+}
+
+.d4 {
+  grid-area: d4;
+}
+
+.d5 {
+  grid-area: d5;
+}
+
+.e1 {
+  grid-area: e1;
+}
+
+.e2 {
+  grid-area: e2;
+}
+
+.e3 {
+  grid-area: e3;
+}
+
+.e4 {
+  grid-area: e4;
+}
+
+.e5 {
+  grid-area: e5;
+}

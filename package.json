@@ -1,0 +1,29 @@
+{
+  "name": "pixel-art-maker",
+  "version": "1.0.0",
+  "description": "In this exercise, you'll create your own pixel art maker which will allow a user to choose colors from a palette and then paint pixel art. The interface is completely up to you, but it could look something like this.",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify scripts/main.js -o bundle.js",
+    "watch": "watchify scripts/main.js -o bundle.js",
+    "dev-server": "live-server .",
+    "dev": "run-all \"npm run watch\" \"npm run dev-server\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/easterjd/pixel-art-maker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/easterjd/pixel-art-maker/issues"
+  },
+  "homepage": "https://github.com/easterjd/pixel-art-maker#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^16.2.2",
+    "live-server": "^1.2.0",
+    "run-all": "^1.0.1",
+    "watchify": "^3.11.0"
+  }
+}
