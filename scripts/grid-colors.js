@@ -12,4 +12,4 @@ let colorGrid = ['WHITE','WHITE','WHITE','WHITE','WHITE','WHITE','WHITE','WHITE'
 let selected = 'WHITE'
 
 
-module.exports = colorGrid, selected
+module.exports = {colorGrid, selected}
